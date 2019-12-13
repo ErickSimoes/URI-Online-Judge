@@ -1,4 +1,4 @@
 # coding: utf-8
 
 n = int(input())
-print("{} minutos".format(n*2))
+print(n*2, "minutos")

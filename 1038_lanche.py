@@ -1,8 +1,4 @@
-#!/usr/bin/env python
 # coding: utf-8
-
-# In[19]:
-
 
 pedido, quant = input().split(" ")
 pedido, quant = int(pedido), float(quant)
@@ -20,4 +16,3 @@ elif pedido == 5:
     valor = 1.5
 
 print('Total: R$ {:.2f}'.format(valor * quant))
-

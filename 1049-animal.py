@@ -1,8 +1,4 @@
-#!/usr/bin/env python
 # coding: utf-8
-
-# In[11]:
-
 
 d = {
     'vertebrado ave carnivoro ': 'aguia',
@@ -20,4 +16,3 @@ key = ''
 for _ in range(3):
     key += input() + ' '
 print(d[key])
-

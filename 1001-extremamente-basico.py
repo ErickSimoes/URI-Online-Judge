@@ -2,4 +2,4 @@
 
 a = int(input())
 b = int(input())
-print('X =', a+b)
+print(f'X = {a + b}')

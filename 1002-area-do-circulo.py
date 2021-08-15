@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
-raio = float(input())
-print("A=%.4f" % (raio*raio*3.14159))
+r = float(input())
+print(f'A={(r**2) * 3.14159:.4f}')
